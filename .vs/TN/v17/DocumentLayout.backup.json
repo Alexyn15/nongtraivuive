@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\duyan\\TN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|c:\\users\\duyan\\tn\\assets\\script\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|c:\\users\\duyan\\tn\\assets\\script\\playerfarmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfarmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\hotbarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hotbarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\playeritemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playeritemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\interactiondetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\interactiondetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\playerfarmaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfarmaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\farmtile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\farmtile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\shopnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\shopitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\itemdraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\itemdraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\shopslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,14 +83,6 @@
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\playeritemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playeritemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\rewardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rewardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,28 +91,12 @@
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\questcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\questui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\questui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,36 +106,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Slot.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Slot.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Slot.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\Slot.cs",
+              "RelativeToolTip": "Assets\\Script\\Slot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:33:59.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HotbarController.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\HotbarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HotbarController.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\HotbarController.cs",
+              "RelativeToolTip": "Assets\\Script\\HotbarController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAowKAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T14:16:00.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerFarmController.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerFarmController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerFarmController.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerFarmController.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerFarmController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAqwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:33:10.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InteractionDetector.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\InteractionDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\InteractionDetector.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\InteractionDetector.cs",
+              "RelativeToolTip": "Assets\\Script\\InteractionDetector.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:48:09.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\Script\\MainMenuController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:00:17.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerAnimation.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerAnimation.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerAnimation.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T11:09:39.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerFarmAction.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerFarmAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerFarmAction.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerFarmAction.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerFarmAction.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:21:03.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FarmTile.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\FarmTile.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\FarmTile.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\FarmTile.cs",
+              "RelativeToolTip": "Assets\\Script\\FarmTile.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:19:09.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemDragHandler.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ItemDragHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ItemDragHandler.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\ItemDragHandler.cs",
+              "RelativeToolTip": "Assets\\Script\\ItemDragHandler.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T17:53:32.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShopItemHandler.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopItemHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ShopItemHandler.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopItemHandler.cs",
+              "RelativeToolTip": "Assets\\Script\\ShopItemHandler.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T17:31:55.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ShopNPC.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopNPC.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopNPC.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopNPC.cs",
               "RelativeToolTip": "Assets\\Script\\ShopNPC.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAADwv2sAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAlwGgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T16:28:24.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopController.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopController.cs",
               "RelativeToolTip": "Assets\\Script\\ShopController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAqwEEAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAawH4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T16:09:23.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T16:09:23.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "CurrencyController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\CurrencyController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CurrencyController.cs",
@@ -107,43 +268,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "ShopSlot.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopSlot.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopSlot.cs",
               "RelativeToolTip": "Assets\\Script\\ShopSlot.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T15:38:03.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerItemCollector.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerItemCollector.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerItemCollector.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerItemCollector.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerItemCollector.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewBYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T13:12:22.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Item.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\Item.cs",
               "RelativeToolTip": "Assets\\Script\\Item.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T13:11:53.348Z"
+              "WhenOpened": "2026-01-27T13:11:53.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "RewardsController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\RewardsController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\RewardsController.cs",
@@ -155,31 +317,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\SaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SaveData.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\SaveData.cs",
               "RelativeToolTip": "Assets\\Script\\SaveData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T15:46:38.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SaveController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\SaveController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SaveController.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\SaveController.cs",
               "RelativeToolTip": "Assets\\Script\\SaveController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAIwMUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T15:45:27.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "QuestController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\QuestController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\QuestController.cs",
@@ -191,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "QuestUI.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\QuestUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\QuestUI.cs",
@@ -203,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "Quest.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Quest.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Quest.cs",
@@ -215,19 +377,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\InventoryController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\InventoryController.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\InventoryController.cs",
               "RelativeToolTip": "Assets\\Script\\InventoryController.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAAAMsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAswMgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T03:07:58.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "NPC.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\NPC.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\NPC.cs",

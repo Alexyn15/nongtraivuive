@@ -17,3 +17,9 @@ UserSettings/
 
 .vscode/
 .idea/
+.vs/
+Library/
+Temp/
+Obj/
+Build/
+Logs/

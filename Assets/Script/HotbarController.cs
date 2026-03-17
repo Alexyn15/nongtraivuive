@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +10,10 @@ public class HotbarController : MonoBehaviour
 
     private ItemDictionary itemDictionary;
     private Key[] hotbarKeys;
+
+    public int selectedIndex = -1;
+    public Color normalColor = Color.white;
+    public Color selectedColor = Color.yellow;
     private void Awake()
     {
         itemDictionary = FindObjectOfType<ItemDictionary>();
@@ -30,8 +34,7 @@ public class HotbarController : MonoBehaviour
         {
             if (Keyboard.current[hotbarKeys[i]].wasPressedThisFrame)
             {
-                //use item in hotbar slot i
-                UseItemInSlot(i);
+                SelectSlot(i);
             }
         }
 
@@ -98,8 +101,89 @@ public class HotbarController : MonoBehaviour
         }
     }
 
+    void SelectSlot(int index)
+    {
+        selectedIndex = index;
+
+        for (int i = 0; i < slotCount; i++)
+        {
+            Slot slot = hotbarPanel.transform.GetChild(i).GetComponent<Slot>();
+            UnityEngine.UI.Image image = slot.GetComponent<UnityEngine.UI.Image>();
+
+            if (i == selectedIndex)
+                image.color = selectedColor;
+            else
+                image.color = normalColor;
+        }
+    }
+
+    public Item GetSelectedItem()
+    {
+        if (selectedIndex < 0) return null;
+
+        Slot slot = hotbarPanel.transform.GetChild(selectedIndex).GetComponent<Slot>();
+
+        if (slot.currentItem == null) return null;
+
+        return slot.currentItem.GetComponent<Item>();
+    }
+
+    public Slot GetSelectedSlot()
+    {
+        if (selectedIndex < 0) return null;
+
+        if (selectedIndex >= hotbarPanel.transform.childCount)
+            return null;
+
+        return hotbarPanel.transform
+            .GetChild(selectedIndex)
+            .GetComponent<Slot>();
+    }
 
 
+    public void AddItem(Item itemToAdd, int amount)
+    {
+        // 1️⃣ Tìm slot đã có cùng item để cộng stack
+        for (int i = 0; i < hotbarPanel.transform.childCount; i++)
+        {
+            Slot slot = hotbarPanel.transform.GetChild(i).GetComponent<Slot>();
 
+            if (slot.currentItem != null)
+            {
+                Item existingItem = slot.currentItem.GetComponent<Item>();
+
+                if (existingItem.ID == itemToAdd.ID)
+                {
+                    existingItem.quantity += amount;
+                    slot.UpdateUI();
+                    return;
+                }
+            }
+        }
+
+        // 2️⃣ Nếu chưa có → tìm slot trống
+        for (int i = 0; i < hotbarPanel.transform.childCount; i++)
+        {
+            Slot slot = hotbarPanel.transform.GetChild(i).GetComponent<Slot>();
+
+            if (slot.currentItem == null)
+            {
+                GameObject newItemGO = Instantiate(
+                    itemDictionary.GetItemPrefab(itemToAdd.ID),
+                    slot.transform
+                );
+
+                newItemGO.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+
+                Item newItem = newItemGO.GetComponent<Item>();
+                newItem.quantity = amount;
+
+                slot.currentItem = newItemGO;
+                return;
+            }
+        }
+
+        Debug.Log("Hotbar đầy!");
+    }
 
 }

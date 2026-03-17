@@ -15,19 +15,19 @@ MonoBehaviour:
   npcName: duyanhvippro
   npcPortrait: {fileID: -2075005174819268701, guid: 357d3f490301b1d488ebfa4850da1f3c, type: 3}
   dialogueLines:
-  - "\u1ED3 m\xE0y t\u1EDBi r\u1ED3i"
-  - "qua l\xE0ng mua gi\xFAp \xEDt h\u1EA1t gi\u1ED1ng nha"
+  - "ch\xE0o"
+  - "qua l\xE0ng mua gi\xFAp \xEDt carot nha"
   - "\u0111i s\u1EDBm v\u1EC1 s\u1EDBm"
   - cam on nha
   - oh oke
-  - "kh\xF4ng gi\xFAp th\xEC l\u01B0\u1EE3n m\xE0y!"
-  - mua  nhanh di ku
-  - chac sap co shop
+  - oh oke
+  - test
+  - test
   autoProgressLines: 0101010101010101
   choies:
   - dialogueIndex: 1
     choices:
-    - "\xE2u k\xEA "
+    - oke
     - "\u0111ang b\u1EADn r\u1ED3i"
     nextDialogueIndexes: 0200000004000000
     givesQuest: 0100

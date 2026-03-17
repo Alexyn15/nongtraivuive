@@ -45,6 +45,12 @@ TagManager:
   - name: Ground
     uniqueID: 631575375
     locked: 0
+  - name: Forest
+    uniqueID: 4245344523
+    locked: 0
+  - name: Grass
+    uniqueID: 2729788559
+    locked: 0
   - name: WalkInfont
     uniqueID: 658029007
     locked: 0
@@ -59,6 +65,12 @@ TagManager:
     locked: 0
   - name: Decor
     uniqueID: 3926040233
+    locked: 0
+  - name: Button
+    uniqueID: 1191307045
+    locked: 0
+  - name: Panel
+    uniqueID: 94115837
     locked: 0
   m_RenderingLayers:
   - Default
