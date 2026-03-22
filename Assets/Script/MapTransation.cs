@@ -1,4 +1,4 @@
-using Unity.Cinemachine;
+﻿using Unity.Cinemachine;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -15,8 +15,8 @@ public class MapTransision : MonoBehaviour
     CinemachineConfiner2D confiner;
 
 
-    enum Direction { Up, Down, Left, Right , Teleport}
-    
+    enum Direction { Up, Down, Left, Right, Teleport }
+
     private void Awake()
     {
         confiner = FindObjectOfType<CinemachineConfiner2D>();
@@ -47,12 +47,6 @@ public class MapTransision : MonoBehaviour
 
     }
 
-
-
-
-
-
-
     private void UpdatePlayerPosition(GameObject player)
     {
         if (direction == Direction.Teleport)
@@ -60,12 +54,6 @@ public class MapTransision : MonoBehaviour
             player.transform.position = teleportTargetPosition.position;
             return;
         }
-
-
-
-
-
-
 
         Vector3 newPos = player.transform.position;
 

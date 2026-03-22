@@ -1,5 +1,4 @@
-﻿
-using System.IO;
+﻿using System.IO;
 using UnityEngine;
 using Unity.Cinemachine;
 using NUnit.Framework;
@@ -48,6 +47,15 @@ public class SaveController : MonoBehaviour
 
     bool IsValid()
     {
+        if (player == null)
+            Debug.LogError("SaveController: player is NULL");
+
+        if (confiner == null)
+            Debug.LogError("SaveController: confiner (CinemachineConfiner2D) is NULL");
+
+        if (confiner != null && confiner.BoundingShape2D == null)
+            Debug.LogError("SaveController: confiner.BoundingShape2D is NULL");
+
         return player != null
             && confiner != null
             && confiner.BoundingShape2D != null;
@@ -228,4 +236,51 @@ public class SaveController : MonoBehaviour
         }
     }
 
+    public void DeleteSaveFile()
+    {
+        try
+        {
+            if (!string.IsNullOrEmpty(saveLocation) && File.Exists(saveLocation))
+            {
+                File.Delete(saveLocation);
+                Debug.Log("Save file deleted: " + saveLocation);
+            }
+            else
+            {
+                Debug.Log("No save file to delete at: " + saveLocation);
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Failed to delete save file: " + e.Message);
+        }
+
+        // Sau khi xoá save, reset game về trạng thái mới
+        InitializeNewGameState();
+    }
+
+    private void InitializeNewGameState()
+    {
+        // giống nhánh "first time player" trong LoadGame
+        if (inventoryController == null)
+            inventoryController = FindObjectOfType<InventoryController>();
+        if (hotbarController == null)
+            hotbarController = FindObjectOfType<HotbarController>();
+
+        inventoryController?.SetInventoryItems(new List<InventorySaveData>());
+        hotbarController?.SetHotbarItems(new List<InventorySaveData>());
+        RefreshChests(); // chest mặc định đóng
+
+        // Reset quest & vàng nếu muốn
+        if (QuestController.Instance != null)
+        {
+            QuestController.Instance.activeQuests = new();
+            QuestController.Instance.handinQuestIDs = new();
+            QuestController.Instance.CheckInventoryForQuests();
+        }
+
+        CurrencyController.Instance?.SetGold(0);
+
+        Debug.Log("Initialized new game state after deleting save.");
+    }
 }
