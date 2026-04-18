@@ -3,7 +3,13 @@ using UnityEngine.UI;
 
 public class Slot : MonoBehaviour
 {
-    public GameObject currentItem;
+    [HideInInspector] public GameObject currentItem;
+
+    private void Awake()
+    {
+        // currentItem chỉ được gán runtime bởi InventoryController
+        currentItem = null;
+    }
 
     public void ClearSlot()
     {
@@ -16,10 +22,9 @@ public class Slot : MonoBehaviour
         if (currentItem == null) return;
 
         Item item = currentItem.GetComponent<Item>();
+        if (item == null) return;
 
-        // Ví dụ nếu bạn có Text hiển thị số lượng
         Text quantityText = GetComponentInChildren<Text>();
-
         if (quantityText != null)
         {
             quantityText.text = item.quantity > 1 ? item.quantity.ToString() : "";

@@ -17,7 +17,31 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4195841196258623253, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: Name
+      value: Carrot Seed
+      objectReference: {fileID: 0}
+    - target: {fileID: -4195841196258623253, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
       propertyPath: isSeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4195841196258623253, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: cropTile
+      value: 
+      objectReference: {fileID: 11400000, guid: a28671f864d0fb249bd23c50cd218440, type: 2}
+    - target: {fileID: -4195841196258623253, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: seedTile
+      value: 
+      objectReference: {fileID: 11400000, guid: 7b9fabfe6d156244a93c62930980a405, type: 2}
+    - target: {fileID: -4195841196258623253, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: harvestItem
+      value: 
+      objectReference: {fileID: -4195841196258623253, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+    - target: {fileID: 2868074743269965920, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: maxDropDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868074743269965920, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: minDropDistance
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3267476703588706680, guid: bca189f459f51f347b00d80808a2fce5, type: 3}

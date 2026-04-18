@@ -1,42 +1,54 @@
-using NUnit.Framework;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemDictionary : MonoBehaviour
 {
-    public List<Item> itemPrefabs;
+    [SerializeField] private List<Item> itemPrefabs = new List<Item>();
     private Dictionary<int, GameObject> itemDictionary;
-   private void Awake()
+
+    private void Awake()
+    {
+        RebuildDictionary();
+    }
+
+    private void RebuildDictionary()
     {
         itemDictionary = new Dictionary<int, GameObject>();
-        //AutoIncrement ID
-        for(int i = 0; i < itemPrefabs.Count; i++)
+
+        foreach (Item item in itemPrefabs)
         {
-            if (itemPrefabs[i] != null)
+            if (item == null) continue;
+
+            if (item.ID <= 0)
             {
-                itemPrefabs[i].ID = i +1;
-                
+                Debug.LogError($"ItemDictionary: Item '{item.name}' có ID <= 0. Hãy đặt ID từ 1 trở lên.");
+                continue;
             }
-        }
-        foreach(Item item in itemPrefabs)
-        {
-            itemDictionary[item.ID] = item.gameObject;
+
+            if (itemDictionary.ContainsKey(item.ID))
+            {
+                Debug.LogError($"ItemDictionary: Trùng ID = {item.ID} ở item '{item.name}'.");
+                continue;
+            }
+
+            itemDictionary.Add(item.ID, item.gameObject);
         }
     }
 
     public GameObject GetItemPrefab(int itemID)
     {
-        itemDictionary.TryGetValue(itemID, out GameObject prefab);
-        if(prefab == null)
+        if (itemID <= 0)
         {
-            Debug.LogWarning($"Item with ID{itemID} not found in dictionary");
+            Debug.LogWarning($"ItemDictionary: itemID không hợp lệ: {itemID}");
+            return null;
         }
-        return prefab;
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        itemDictionary.TryGetValue(itemID, out GameObject prefab);
+        if (prefab == null)
+        {
+            Debug.LogWarning($"ItemDictionary: Không tìm thấy item với ID = {itemID}");
+        }
+
+        return prefab;
     }
 }

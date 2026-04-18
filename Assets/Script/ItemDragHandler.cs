@@ -120,20 +120,16 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
         if (quantity > 1)
         {
-            // giảm stack trong inventory, chỉ thả 1 item ra ngoài
             item.RemoveFromStack();
             transform.SetParent(originalParent);
             GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
-
             quantity = 1;
         }
         else
         {
-            // slot không còn giữ item này nữa
             originalSlot.currentItem = null;
         }
 
-        //Find player
         Transform playerTransform = GameObject.FindGameObjectWithTag("Player")?.transform;
         if (playerTransform == null)
         {

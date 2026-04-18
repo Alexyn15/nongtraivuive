@@ -61,6 +61,9 @@ TagManager:
   - name: Player
     uniqueID: 4247108059
     locked: 0
+  - name: Ore
+    uniqueID: 3399074607
+    locked: 0
   - name: WalkBehind
     uniqueID: 2398605513
     locked: 0

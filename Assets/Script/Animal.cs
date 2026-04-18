@@ -49,20 +49,17 @@ public class Animal : MonoBehaviour, Interactable
     {
         if (inventory == null) return;
 
-        // Lấy tổng số item trong inventory
-        var counts = inventory.GetItemCounts();
-        counts.TryGetValue(requiredFoodItemID, out int available);
+        // Đồng bộ lại cache trước khi kiểm tra
+        inventory.RebuildItemCounts();
 
-        if (available <= 0)
+        bool removed = inventory.RemoveItemsFromInventory(requiredFoodItemID, 1);
+        if (!removed)
         {
-            Debug.Log("Không có thức ăn phù hợp trong túi.");
+            Debug.LogWarning($"Không trừ được food itemID={requiredFoodItemID}. Kiểm tra ID item sau load/save.");
             return;
         }
 
-        // Cho ăn 1 đơn vị mỗi lần tương tác
-        inventory.RemoveItemsFromInventory(requiredFoodItemID, 1);
         currentFoodCount++;
-
         Debug.Log($"Động vật được cho ăn. Đã ăn: {currentFoodCount}/{foodPerProduct}");
 
         if (currentFoodCount >= foodPerProduct)

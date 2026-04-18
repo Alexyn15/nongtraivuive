@@ -48,24 +48,23 @@ public class InventoryController : MonoBehaviour
 
     public void RebuildItemCounts()
     {
-
         itemsCountCache.Clear();
 
         foreach (Transform slotTransform in inventoryPanel.transform)
         {
             Slot slot = slotTransform.GetComponent<Slot>();
-            if (slot.currentItem != null)
-            {
-                Item item = slot.currentItem.GetComponent<Item>();
-                if (item != null)
-                {
-                    itemsCountCache[item.ID] = itemsCountCache.GetValueOrDefault(item.ID, 0) + item.quantity;
-                }
-            }
+            if (slot == null) continue;
+
+            GameObject currentItem = slot.currentItem;
+            if (currentItem == null) continue;
+
+            Item item = currentItem.GetComponent<Item>();
+            if (item == null) continue;
+
+            itemsCountCache[item.ID] = itemsCountCache.GetValueOrDefault(item.ID, 0) + item.quantity;
         }
 
         OnInventoryChanged?.Invoke();
-
     }
 
     public Dictionary<int, int> GetItemCounts() => itemsCountCache;
@@ -179,27 +178,31 @@ public class InventoryController : MonoBehaviour
         RebuildItemCounts();
     }
 
-    public void RemoveItemsFromInventory(int itemID,int amountToRemove)
+    public bool RemoveItemsFromInventory(int itemID, int amountToRemove)
     {
+        int remaining = amountToRemove;
+
         foreach (Transform slotTransform in inventoryPanel.transform)
         {
-            if (amountToRemove <= 0) break;
+            if (remaining <= 0) break;
 
             Slot slot = slotTransform.GetComponent<Slot>();
-            if (slot?.currentItem?.GetComponent<Item>() is Item item && item.ID == itemID)
-            {
-                int removed = Mathf.Min(amountToRemove, item.quantity);
-                item.RemoveFromStack(removed);
-                amountToRemove -= removed;
+            if (slot == null || slot.currentItem == null) continue;
 
-                if (item.quantity == 0)
-                {
-                    Destroy(slot.currentItem);
-                    slot.currentItem = null;
-                }
+            Item item = slot.currentItem.GetComponent<Item>();
+            if (item == null || item.ID != itemID) continue;
+
+            int removed = item.RemoveFromStack(remaining);
+            remaining -= removed;
+
+            if (item.quantity <= 0)
+            {
+                Destroy(slot.currentItem);
+                slot.currentItem = null;
             }
-            
         }
+
         RebuildItemCounts();
+        return remaining <= 0;
     }
 }

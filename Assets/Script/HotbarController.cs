@@ -58,33 +58,34 @@ public class HotbarController : MonoBehaviour
         foreach (Transform slotTransform in hotbarPanel.transform)
         {
             Slot slot = slotTransform.GetComponent<Slot>();
-            if (slot.currentItem != null)
+            if (slot != null && slot.currentItem != null)
             {
                 Item item = slot.currentItem.GetComponent<Item>();
+                if (item == null) continue;
+
                 hotbarData.Add(new InventorySaveData
                 {
                     itemID = item.ID,
-                    slotIndex = slotTransform.GetSiblingIndex()
+                    slotIndex = slotTransform.GetSiblingIndex(),
+                    quantity = item.quantity
                 });
             }
         }
-        return  hotbarData;
+        return hotbarData;
     }
 
     public void SetHotbarItems(List<InventorySaveData> inventorySaveData)
     {
-        // Clear inventory panel - avoid duplicates
         foreach (Transform child in hotbarPanel.transform)
         {
             Destroy(child.gameObject);
         }
-        //create new slots
+
         for (int i = 0; i < slotCount; i++)
         {
             Instantiate(slotPrefab, hotbarPanel.transform);
         }
 
-        //populate slots with items from save data
         foreach (InventorySaveData data in inventorySaveData)
         {
             if (data.slotIndex < slotCount)
@@ -95,6 +96,14 @@ public class HotbarController : MonoBehaviour
                 {
                     GameObject item = Instantiate(itemPrefab, slot.transform);
                     item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+
+                    Item itemComponent = item.GetComponent<Item>();
+                    if (itemComponent != null && data.quantity > 1)
+                    {
+                        itemComponent.quantity = data.quantity;
+                        itemComponent.UpdateQuantityDisplay();
+                    }
+
                     slot.currentItem = item;
                 }
             }

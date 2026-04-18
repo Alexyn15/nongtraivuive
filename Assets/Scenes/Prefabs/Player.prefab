@@ -320,7 +320,6 @@ GameObject:
   - component: {fileID: 4468243574857597269}
   - component: {fileID: 1477038327440609732}
   - component: {fileID: 6308903109132902398}
-  - component: {fileID: 5322690226155807809}
   - component: {fileID: 7569862666540804493}
   m_Layer: 0
   m_Name: Player
@@ -705,26 +704,6 @@ MonoBehaviour:
     seedTile: {fileID: 11400000, guid: 7b9fabfe6d156244a93c62930980a405, type: 2}
     harvestItem: {fileID: -4195841196258623253, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
     growTime: 5
---- !u!114 &5322690226155807809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116780356149381092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2d3c91d3d0bd1a47a72588d302e3a2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
-  attackPoint: {fileID: 7449051185453162237}
-  attackRange: 1
-  attackDamage: 20
-  attackCooldown: 0.4
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  animator: {fileID: 4905964248247644672}
 --- !u!114 &7569862666540804493
 MonoBehaviour:
   m_ObjectHideFlags: 0

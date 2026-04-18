@@ -20,6 +20,14 @@ PrefabInstance:
       propertyPath: Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 2868074743269965920, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: maxDropDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868074743269965920, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
+      propertyPath: minDropDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3267476703588706680, guid: bca189f459f51f347b00d80808a2fce5, type: 3}
       propertyPath: m_Sprite
       value: 
