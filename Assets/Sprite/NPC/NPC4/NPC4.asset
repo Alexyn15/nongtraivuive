@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021c4e9a8f754d14a8d3bfa137dbc9e3, type: 3}
+  m_Name: NPC4
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: 
+  npcPortrait: {fileID: -7657976268142955043, guid: 7f15387b65496f34396f3d917e1d0035, type: 3}
+  dialogueLines:
+  - "hi\u1EC7n t\u1EA1i \xF4ng ch\u1EE7 ti\u1EC7m r\xE8n \u0111i v\u1EAFng r\u1ED3i
+    khi n\xE0o \xF4ng \u1EA5y v\u1EC1 th\xEC ng\u01B0\u01A1i h\xE3y quay l\u1EA1i"
+  autoProgressLines: 
+  choies: []
+  endDialoguelines: 
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}
