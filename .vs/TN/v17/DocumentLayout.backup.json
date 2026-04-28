@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\duyan\\TN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|c:\\users\\duyan\\tn\\assets\\script\\playerspawncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|c:\\users\\duyan\\tn\\assets\\script\\minimapplayericon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\minimapplayericon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\minimapcamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\minimapcamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\playerspawncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerspawncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|c:\\users\\duyan\\tn\\assets\\script\\animalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|C:\\Users\\duyan\\TN\\assets\\script\\animalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6075F5-8D59-372E-86C2-EE1665D84768}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\animalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -211,19 +219,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MiniMapPlayerIcon.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\MiniMapPlayerIcon.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MiniMapPlayerIcon.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\MiniMapPlayerIcon.cs",
+              "RelativeToolTip": "Assets\\Script\\MiniMapPlayerIcon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:38:11.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiniMapCameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\MiniMapCameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MiniMapCameraFollow.cs",
+              "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\MiniMapCameraFollow.cs",
+              "RelativeToolTip": "Assets\\Script\\MiniMapCameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:13:42.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerSpawnController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerSpawnController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerSpawnController.cs",
               "ToolTip": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerSpawnController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerSpawnController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAIA8wCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T02:49:53.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T02:49:53.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DebtNPC.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\DebtNPC.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\DebtNPC.cs",
@@ -235,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "DebtNPC.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\DebtNPC.cs",
               "RelativeDocumentMoniker": "Assets\\DebtNPC.cs",
@@ -243,11 +275,12 @@
               "RelativeToolTip": "Assets\\DebtNPC.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T03:32:29.749Z"
+              "WhenOpened": "2026-04-01T03:32:29.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PlayerMiningController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerMiningController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerMiningController.cs",
@@ -259,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "OreNode.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\OreNode.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\OreNode.cs",
@@ -271,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "PlayerMovementController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerMovementController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovementController.cs",
@@ -283,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AnimalMovement.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\AnimalMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AnimalMovement.cs",
@@ -291,12 +324,11 @@
               "RelativeToolTip": "Assets\\Script\\AnimalMovement.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T14:39:05.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T14:39:05.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ItemDictionary.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ItemDictionary.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ItemDictionary.cs",
@@ -308,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
@@ -320,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Interactable.cs",
@@ -332,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "NewGameButton.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\NewGameButton.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\NewGameButton.cs",
@@ -344,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SceneTrigger.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\SceneTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SceneTrigger.cs",
@@ -356,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "AudioSettingsUI.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\AudioSettingsUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AudioSettingsUI.cs",
@@ -368,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AIGeneratedMap.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\AIGeneratedMap.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AIGeneratedMap.cs",
@@ -380,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AITestCaller.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\AITestCaller.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AITestCaller.cs",
@@ -392,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "AnimalFeedUI.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\AnimalFeedUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AnimalFeedUI.cs",
@@ -404,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "PlayerDeathHandler.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerDeathHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerDeathHandler.cs",
@@ -416,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "PlayerHealthUI.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerHealthUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerHealthUI.cs",
@@ -428,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "AutoDestroy.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\AutoDestroy.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AutoDestroy.cs",
@@ -440,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "WarningArea.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\WarningArea.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\WarningArea.cs",
@@ -452,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "BossAI.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\BossAI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BossAI.cs",
@@ -464,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerCombat.cs",
@@ -476,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Health.cs",
@@ -488,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ProceduralMapGenerator.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ProceduralMapGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ProceduralMapGenerator.cs",
@@ -500,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "GoldUI.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\GoldUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GoldUI.cs",
@@ -512,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Animal.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Animal.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Animal.cs",
@@ -524,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ItemDragHandler.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ItemDragHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ItemDragHandler.cs",
@@ -536,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "MapTransation.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\MapTransation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MapTransation.cs",
@@ -548,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Slot.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Slot.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Slot.cs",
@@ -560,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "HotbarController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\HotbarController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\HotbarController.cs",
@@ -572,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PlayerFarmController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerFarmController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerFarmController.cs",
@@ -584,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "InteractionDetector.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\InteractionDetector.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\InteractionDetector.cs",
@@ -596,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MainMenuController.cs",
@@ -608,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "PlayerAnimation.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerAnimation.cs",
@@ -620,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "ShopItemHandler.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopItemHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopItemHandler.cs",
@@ -632,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ShopNPC.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopNPC.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopNPC.cs",
@@ -644,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopController.cs",
@@ -656,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "CurrencyController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\CurrencyController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CurrencyController.cs",
@@ -668,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ShopSlot.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\ShopSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopSlot.cs",
@@ -680,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "PlayerItemCollector.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\PlayerItemCollector.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerItemCollector.cs",
@@ -692,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Item.cs",
@@ -704,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "RewardsController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\RewardsController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\RewardsController.cs",
@@ -716,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\SaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SaveData.cs",
@@ -728,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SaveController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\SaveController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SaveController.cs",
@@ -740,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "QuestController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\QuestController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\QuestController.cs",
@@ -752,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "QuestUI.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\QuestUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\QuestUI.cs",
@@ -764,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Quest.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\Quest.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Quest.cs",
@@ -776,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\InventoryController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\InventoryController.cs",
@@ -788,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "NPC.cs",
               "DocumentMoniker": "C:\\Users\\duyan\\TN\\Assets\\Script\\NPC.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\NPC.cs",

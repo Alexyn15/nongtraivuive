@@ -1,8 +1,7 @@
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ShopItemHandler : MonoBehaviour,IPointerClickHandler
+public class ShopItemHandler : MonoBehaviour, IPointerClickHandler
 {
     private bool isShopItem;
     public Slot originalInventorySlot;
@@ -15,9 +14,7 @@ public class ShopItemHandler : MonoBehaviour,IPointerClickHandler
         {
             if (isShopItem) BuyItem();
             else SellItem();
-            
         }
-
     }
 
     public void BuyItem()
@@ -28,7 +25,6 @@ public class ShopItemHandler : MonoBehaviour,IPointerClickHandler
 
         if (CurrencyController.Instance.GetGold() < slot.itemPrice)
         {
-            //
             Debug.Log("Not enough gold");
             return;
         }
@@ -44,7 +40,6 @@ public class ShopItemHandler : MonoBehaviour,IPointerClickHandler
         {
             Debug.Log("inventory full!");
         }    
-
     }
 
     private void SellItem()
@@ -67,7 +62,5 @@ public class ShopItemHandler : MonoBehaviour,IPointerClickHandler
         CurrencyController.Instance.AddGold(slot.itemPrice);
         ShopController.Instance.RefreshPlayerInventoryDisplay();
         ShopController.Instance.AddItemToShop(item.ID, 1);
-
     }
-
 }
