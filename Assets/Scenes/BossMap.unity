@@ -127460,8 +127460,8 @@ MonoBehaviour:
   minSkillDistance: 2
   lootPrefabs:
   - {fileID: 4580318800047220904, guid: 0342452f96475a340902c0dde1a5c47c, type: 3}
-  minLoot: 1
-  maxLoot: 3
+  minLoot: 20
+  maxLoot: 20
   lootRadius: 1
 --- !u!50 &1800773227
 Rigidbody2D:
